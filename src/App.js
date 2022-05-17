@@ -5,6 +5,7 @@ import Navbar from "./Navbar";
 import ClockwithHook from "./ClockwithHook";
 import Weather, { TemparatureCelcius } from "./Weather";
 import { Grid } from "./Grid";
+import { Layout } from "./Layout";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <TemparatureCelcius />
       </header> */}
       <Grid />
+      <Layout />
     </div>
   );
 }
