@@ -1,0 +1,46 @@
+li a:hover {
+    background-color: rgb(9, 97, 250);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-nav a {
+    color: #34495e;
+    font-size: 0.99em;
+}
+
+.logo {
+    height: 50px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav a {
+    color: #34495e;
+    font-size: 0.99em;
+}
+
+.logo a,
+.main-nav a {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header,
+.main-nav {
+    display: flex;
+}
